@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\GoogleDrive\AndroidStudio\QualAbastecer\app\libs\mysql-connector-java-5.1.21-bin.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7abbd19fc2e2d5b92c0895af8520f7fa30266be9">
+        <dex dex="D:\GoogleDrive\AndroidStudio\QualAbastecer\app\build\intermediates\pre-dexed\debug\mysql-connector-java-5.1.21-bin-93881179e3d674cd1042beea4f141b9be5b45840.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rafael\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\GoogleDrive\AndroidStudio\QualAbastecer\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-f1c3ae39a4cbda35843df6ace0ec0c43bf87d408.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDrive\AndroidStudio\QualAbastecer\app\libs\GoogleAdMobAdsSdk-6.4.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6262c554ef5744538d526465aa73704810705734">
+        <dex dex="D:\GoogleDrive\AndroidStudio\QualAbastecer\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-6.4.1-9dcc485d0e6a265e97e4ace0f3eaa7c04fd47c53.jar" />
+    </item>
+    <item
+        jar="D:\GoogleDrive\AndroidStudio\QualAbastecer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="D:\GoogleDrive\AndroidStudio\QualAbastecer\app\build\intermediates\pre-dexed\debug\classes-b78990580dc5e255890d56bc16f541d368112a0b.jar" />
+    </item>
+
+</items>

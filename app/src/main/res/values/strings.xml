@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ouououo -->
+
+    <string name="app_name">Which Fuel?</string>
+    <string name="id_lang">ENGLISH</string>
+    <string name="action_settings">About</string>
+    <string name="about">Designed by: Rafael WMS \nDeveloped by: Rafael WMS \nPOGs by: Rafael WMS \nBrazil - Pernambuco \n \nCONTACT: \nrafael.wmsa@gmail.com\n\n©2014 by Rafael WMS</string>
+    <string name="hello_world">Olá world!</string>
+    <string name="topApp">Type the cost of each fuel.</string>
+    <string name="lblGas">Gasoline\'s Price U$:</string>
+    <string name="fieldGas"></string>
+    <string name="lblEthanol">Ethanol\'s Price U$:</string>
+    <string name="fieldEthanol"></string>
+    <string name="btnActLbl">Calculate</string>
+    <string name="lblBestFuel">The best fuel option is:</string>
+    <string name="use">USE</string>
+    <string name="lblREsult">@null</string>
+    <string name="ethResult">ETHANOL</string>
+    <string name="gasResult">GASOLINE</string>
+    <string name="flexResult">FLEX POWER</string>
+    <string name="dieselResult">DIESEL</string>
+    <string name="btnAct2lbl">Details</string>
+    <string name="title_activity_details">Details</string>
+    <string name="lblAct2Tilte">Information:</string>
+    <string name="lblAct2Gas">Gasoline\'s Price U$:</string>
+    <string name="lblAct2GasPrice">\@null</string>
+    <string name="lblAct2Eth">Ethanol\'s Price U$:</string>
+    <string name="lblAct2EthPrice">\@null</string>
+    <string name="btnAct2Back">To come back</string>
+    <string name="lblAct2Result">\@null</string>
+    <string name="lblAct2ResultValueEth">Etanol\'s price is below of 70% of the Gasoline\'s price.\n\nUSE ETANOL.</string>
+    <string name="lblAct2ResultGas">Etanol\'s price is over 70% of the Gasoline\'s price.\n\nUSE GASOLINE</string>
+    <string name="errorField">Necessary to type a value.</string>
+    <string name="title_activity_calculadora">Calculator</string>
+
+    <!-- Drawer -->
+    <string-array name="drawer_options">
+        <item>Calculator</item>
+        <item>Vehicles</item>
+        <item>Gas Stations</item>
+        <item>Feedings</item>
+        <item>Find Results</item>
+        <item>User</item>
+    </string-array>
+
+    <string name="title_activity_carro">My Vehicles</string>
+    <string name="lblDadosCarro">Vehicle\'s Info:</string>
+    <string name="hintCarroNome">Alias or plate of the Vehicle.</string>
+    <string name="lblCarroCor">Color\nSet</string>
+
+    <!-- Menu -->
+    <string name="menuSalvarCarro">Save Vehicle</string>
+    <string name="menuDeletarCarro">Delete Vehicle</string>
+    <string name="null_text">@null</string>
+
+    <!-- Dialogs -->
+    <string name="corRed">RED COLOR</string>
+    <string name="corGreen">GREEN COLOR.</string>
+    <string name="corBlue">BLUE COLOR.</string>
+    <string name="corRedValue">RED: </string>
+    <string name="corGreenValue">GREEN:</string>
+    <string name="corBlueValue">BLUE:</string>
+
+    <!-- Dialogs -->
+    <string name="dialogTitleDeleteFeed">DELETE FEED</string>
+    <string name="dialogMsgDeleteFeed">Proceed delete action?</string>
+    <string name="dialogTitleUpgradeFeed">UPDATE FEED</string>
+    <string name="dialogMsgUpgradeFeed">Proceed updating this feed? \nNote: it does not affect the date of the feeding.</string>
+    <string name="dialogTitleDeleteCar">DELETE VEHICLE</string>
+    <string name="dialogMsgDeleteCar">Proceed delete action? \nAll feeding registers with this vehicle \nwill be automatically deleted. </string>
+    <string name="dialogTitleDeletePosto">DELETAR RANK</string>
+    <string name="dialogMsgDeletePosto">Proceed delete action? \nAll feeding registers with this gas station \nwill be automatically deleted.  </string>
+    <string name="dialogBtnOK">OK</string>
+    <string name="dialogBtnCanclear">Cancel</string>
+
+    <!-- Toasts -->
+    <string name="exceptionNomeVazio">Alias or plate isn\'t typed.</string>
+    <string name="exceptionCombustivelVazio">It is necessary to choose a type of fuel.</string>
+    <string name="exceptionNomeUtilizadoCarro">Alias or plate already used by another vehicle.</string>
+    <string name="exceptionTipo">It needs to choose a kind of vehicle.</string>
+    <string name="toastSalvarCarro">Vehicle saved with success.</string>
+    <string name="toastAtualizarCarro">Vehicle updated to date with success.</string>
+    <string name="toastDeletarCarro">Vehicle deleted with success.</string>
+    <string name="toastSelecionarCarro">It is necessary to select a vehicle.</string>
+    <string name="lblCarrosLista">Vehicles List</string>
+
+    <!-- Posto -->
+    <string name="title_activity_posto">Gas Station</string>
+    <string name="lblTelaPosto">Gas Station</string>
+    <string name="hintPostoNome">Name or company of the Gas Station.</string>
+    <string name="lblPostoAtendimento">It evaluates the service:</string>
+    <string name="hintPostoGasolina">Gasoline\'s Price U$:</string>
+    <string name="hintPostoEtanol">Etanol\' Price U$:</string>
+    <string name="hintPostoDiesel">Diesel\'s Price U$:</string>
+    <string name="lblPostoList">Gas Stations List</string>
+    <string name="lblPostoListPrecoGasolina">Gasoline\'s Price U$:</string>
+    <string name="lblPostoListPrecoEtanol">Etanol\' Price U$:</string>
+    <string name="lblPostoListPrecoDiesel">Diesel\'s Price U$:</string>
+    <string name="lblPostoListRating">Rate:</string>
+    <string name="toastSalvarPosto">Gas Station saved with success.</string>
+    <string name="toastAtualizarPosto">Gas Station updated with success</string>
+    <string name="toastDeletarPosto">Gas Station removed with success</string>
+    <string name="toastSelecionarPosto">It is necessary to select a Gas Station.</string>
+    <string name="exceptionNomePostoVazio">Name or company not typed.</string>
+    <string name="exceptionPostoCombustivelVazio">Necessary to type the cost of all the fuels.</string>
+    <string name="exceptionNomeUtilizadoPosto">Name or company of Gas Station already used.</string>
+    <string name="title_activity_abastecimento">Feedings</string>
+    <string name="lblAbastecimentoTitulo">Feedings</string>
+    <string name="lblCombustivelUsado">Fuel:</string>
+    <string name="lblTipoSolicitacao">Request</string>
+    <string name="lblListaAbastecimento">List of Feedings</string>
+    <string name="hitnValorPago"></string>
+    <string name="hintValorPago">Money spent U$</string>
+    <string name="hintLitres">Liters supplied.</string>
+    <string name="hintKm">KMmeter of the vehicle</string>
+    <string name="veiculo">VEHICLE</string>
+    <string name="Posto">GAS STATION</string>
+
+    <!-- Abastecimento -->
+    <string name="abastecimentoSaved">Feeding saved with success.</string>
+    <string name="abastecimentoUpdate">Feeding updated with success.</string>
+    <string name="abastecimentoDeleted">Feeding deleted with success.</string>
+    <string name="exceptionAbastecimentoSelecionado">Necessary to select a Feeding.</string>
+    <string name="exceptionVeiculoSelecionado">Necessary to select a Vehicle.</string>
+    <string name="exceptionPostoSelecionado">Necessary to select a Gas Staion.</string>
+    <string name="exceptionCamposAPreencher">Necessary to inform the paid value or supplied liters.</string>
+    <string name="exceptionCombPreencher">The selected vehicle is FLEX POWER, \ n please, select the feed fuel.</string>
+    <string name="exceptionCampoKm">It needs to inform the KMmeter.</string>
+    <string name="exceptionCampoKm2">The KMmeter is inferior the last one registered.</string>
+    <string name="data">Date:</string>
+    <string name="veiculoDP">Vehicle:</string>
+    <string name="combustivelDP">Fuel:</string>
+    <string name="postoDP">G.Sation:</string>
+    <string name="kilometragemDP">Km:</string>
+    <string name="cifra">U$:</string>
+    <string name="litros">Liters:</string>
+    <string name="title_activity_estatisticas">Results</string>
+
+    <!-- Spinner Valores -->
+    <string-array name="spinnerValores">
+        <item>SELECT AN OPTION ABOVE</item>
+    </string-array>
+
+    <!-- Spinner Valores -->
+    <string-array name="spinnerCobustivel">
+        <item>FUEL</item>
+        <item>GASOLINE</item>
+        <item>ETANOL</item>
+        <item>DIESEL</item>
+    </string-array>
+
+    <string name="combustivel">FUEL</string>
+    <string name="atualizarAbastecimento">Upate Feeding. \ nNote: it does not affect the date of the supplying.</string>
+    <string name="visualizarEstatisticas">Find Results</string>
+    <string name="imeSalvar">Save</string>
+    <string name="imeCalcular">Calculate</string>
+
+    <!-- Help Tela Calculadora -->
+    <string name="helpTituloCalculadora">CALCULATOR</string>
+    <string name="helpMsgCalculadora">	   
+        The intent of this feature is 
+		help choose an option more fuel 
+		feasible for those who will use the vehicle FLEX POWER. \n \n 
+
+		Enter the price of gasoline and ethane and 
+		press the CALCULATE button to get the best 
+		supply option among these two 
+		fuels.     
+</string>
+
+    <!-- Help Tela Veiculo -->
+    <string name="helpTituloVeiculo">VEHICLE</string>
+    <string name="helpMsgVeiculo">	    
+        On this screen you can register, 
+		change and delete vehicles. \n \n 
+
+		You must enter a name, select a type of vehicle, 
+		fuel - to FLEX vehicles, select Gasoline 
+		Ethanol and - finally, choose a color for your vehicle 
+		adjusting the sliders, observing the effect 
+		the icon to the left.
+</string>
+
+    <!-- Help Tela Posto -->
+    <string name="helpTituloPosto">GAS STATION</string>
+    <string name="helpMsgPosto">	    
+        On this screen you can register,
+		change and delete Gas Stations. \n \n
+
+		You must enter a name, evaluate the service
+		through the establishment of the level of stars and
+		inform the prices of Petrol, Diesel and Ethanol.
+</string>
+
+    <!-- Help Tela Abastecimento -->
+    <string name="helpTituloAbastecimento">FEEDINGS</string>
+    <string name="helpMsgAbastecimento">	   
+		On this screen you can register, 
+		change and delete supplies. \n \n 
+		
+		Should select a vehicle in the dropdown. 
+		Choose a station from the dropdown below. 
+		Choose between Petrol or Ethanol if 
+		vehicle is selected FLEX POWER, for 
+		other vehicles the fuel will be 
+		automatically selected. \n \n 
+		
+		In the choice between Request 
+		Amount Paid or Requested Liters, type 
+		in the relevant field of your choice that 
+		other value will be generated automatically. \n \n 
+		
+		Finally, enter the current mileage of your 
+		vehicle.
+</string>
+
+    <!-- Help Tela Consultas -->
+    <string name="helpTituloConsultas">FIND RESULTS</string>
+    <string name="helpMsgConsultas">	    
+		On this screen you can consult their
+		supply records using filters
+		specific. \n \n
+		
+		When selecting your option, enter: VEHICLE
+		GAS STATION and FUEL, the dropdown below
+		will be populated with the records according
+		with your choice. Esolhendo one of the items in
+		dropdown, the list of supplies will be
+		filled.
+</string>
+    <string name="title_activity_usuario">User Data</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintSenha">Password</string>
+    <string name="hintLogin">Login</string>
+    <string name="btnCadastrar">Sign Up</string>
+    <string name="btnLogin">Sign In</string>
+    <string name="btnSair">Logout</string>
+    <string name="msgPrecisaLogar">Must be signed in.</string>
+
+</resources>

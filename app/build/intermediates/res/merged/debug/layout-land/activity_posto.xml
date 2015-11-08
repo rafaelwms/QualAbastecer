@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollPosto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcgd_posto"
+    android:orientation="horizontal"
+    tools:context="br.com.rafaelwms.qualabastecer.PostoActivity"
+    tools:ignore="MergeRootFrame" android:baselineAligned="false">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:id="@+id/containerPosto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/lblTelaPosto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:text="@string/lblTelaPosto"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <EditText
+                    android:id="@+id/editPostoNome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:ems="10"
+                    android:hint="@string/hintPostoNome"
+                    android:imeOptions="actionDone" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/lblPostoAtendimento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/lblPostoAtendimento"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <RatingBar
+                    android:id="@+id/ratingBarAtendimentoPosto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:numStars="5" />
+
+                <EditText
+                    android:id="@+id/editPostoGasolina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="@string/hintPostoGasolina"
+                    android:inputType="numberDecimal" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/editPostoEtanol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="@string/hintPostoEtanol"
+                    android:inputType="numberDecimal" />
+
+                <EditText
+                    android:id="@+id/editPostoDiesel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:ems="10"
+                    android:hint="@string/hintPostoDiesel"
+                    android:imeActionLabel="@string/imeSalvar"
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblPostoList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/lblPostoList"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ListView
+                android:id="@+id/listViewPostos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+        </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/D:/GoogleDrive/AndroidStudio/QualAbastecer/app/src/main/res/layout-land/activity_posto.xml -->

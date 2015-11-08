@@ -1,0 +1,179 @@
+
+    
+    <LinearLayout
+           	 xmlns:tools="http://schemas.android.com/tools"
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		tools:context="br.com.rafaelwms.qualabastecer.VeiculoActivity"
+    	tools:ignore="MergeRootFrame"
+    	android:background="@drawable/bcgd_veiculo" 
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="15dp"
+
+   		>
+
+        <TextView
+            android:id="@+id/lblDadosCarro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/lblDadosCarro"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edtCarroNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hintCarroNome"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/chkbCarroGas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gasResult"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/chkbCarroEth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ethResult"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <CheckBox
+                android:id="@+id/chkbCarroDiesel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dieselResult"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imgCarro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_carro" />
+
+            <ImageView
+                android:id="@+id/imgMoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_moto" />
+
+            <ImageView
+                android:id="@+id/imgCaminhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_caminhao" />
+
+            <ImageView
+                android:id="@+id/imgOnibus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_onibus" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <ImageView
+                android:id="@+id/imgVeiculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_carro" />
+
+            <SeekBar
+                android:id="@+id/seekBarG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/seekBarR"
+                android:layout_below="@+id/seekBarR"
+                android:max="255"
+                android:progress="0" />
+
+            <SeekBar
+                android:id="@+id/seekBarR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imgVeiculo"
+                android:max="255"
+                android:progress="0" />
+
+            <SeekBar
+                android:id="@+id/seekBarB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/seekBarG"
+                android:layout_below="@+id/seekBarG"
+                android:max="255"
+                android:progress="0" />
+
+            <TextView
+                android:id="@+id/lblCarroCor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imgVeiculo"
+                android:layout_toLeftOf="@+id/seekBarG"
+                android:text="@string/lblCarroCor"
+                android:textAlignment="center" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"
+            android:text="@string/null_text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/lblListaCarros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/lblCarrosLista"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ListView
+            android:id="@+id/listViewCarros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+        </ListView>
+    </LinearLayout>
+
+<!-- From: file:/D:/GoogleDrive/AndroidStudio/QualAbastecer/app/src/main/res/layout/activity_veiculo.xml -->

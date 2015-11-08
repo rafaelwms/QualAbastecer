@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcgd_abastecimento"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="br.com.rafaelwms.qualabastecer.AbastecimentoActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <TextView
+        android:id="@+id/lblAbastecimentoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblAbastecimentoTitulo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/spinnerVeiculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/veiculo" />
+
+    <Spinner
+        android:id="@+id/spinnerPosto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lblTipoCombustivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblCombustivelUsado"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioGasolina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gasResult"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <RadioButton
+            android:id="@+id/radioEtanol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ethResult"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <RadioButton
+            android:id="@+id/radioDiesel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dieselResult"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblTipoSolicitacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblTipoSolicitacao"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radioValorPago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/null_text" />
+
+        <EditText
+            android:id="@+id/editValorPago"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:hint="@string/hintValorPago"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radioLitros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/null_text" />
+
+        <EditText
+            android:id="@+id/editQtdLitros"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusableInTouchMode="true"
+            android:hint="@string/hintLitres"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="@string/hintKm"
+        android:imeActionLabel="@string/imeSalvar"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/lblListaAbastecimentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/lblListaAbastecimento"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ListView
+        android:id="@+id/listViewAbastecimentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout><!-- From: file:/D:/GoogleDrive/AndroidStudio/QualAbastecer/app/src/main/res/layout/activity_abastecimento.xml -->

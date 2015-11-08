@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/GoogleDrive/AndroidStudio/QualAbastecer/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string-array name="drawer_options">
+        <item>Calculadora</item>
+        <item>Veículos</item>
+        <item>Postos</item>
+        <item>Abastecimentos</item>
+        <item>Consultas</item>
+        <item>Usuário</item>
+    </string-array>
+    <string-array name="spinnerCobustivel">
+	<item>COMBUSTÍVEL</item>
+    <item>GASOLINA</item>
+    <item>ETANOL</item>
+    <item>DIESEL</item>
+    </string-array>
+    <string-array name="spinnerValores">
+    <item>SELECIONE UMA OPÇÃO ACIMA</item>
+    </string-array>
+    <string name="Posto">POSTO</string>
+    <string name="abastecimentoDeleted">Abastecimento deletado com êxito.</string>
+    <string name="abastecimentoSaved">Abastecimento salvo com êxito.</string>
+    <string name="abastecimentoUpdate">Abastecimento atualizado com êxito.</string>
+    <!-- From: file:/D:/GoogleDrive/AndroidStudio/QualAbastecer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-pt/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Selecione um aplicativo"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
+    <!-- From: file:/D:/GoogleDrive/AndroidStudio/QualAbastecer/app/src/main/res/values-pt/strings.xml -->
+    <eat-comment/>
+    <string name="about">Qual Abastecer? v.2.0\n\nDesign por: Rafael WMS\nDesenvolvido por: Rafael WMS\nPOGs por: Rafael WMS\nBrasil - Pernambuco\n\nCONTATO:\nrafael.wmsa@gmail.com\n\n©2014 por Rafael WMS</string>
+    <string name="action_settings">Sobre</string>
+    <string name="app_name">Qual Abastecer?</string>
+    <string name="atualizarAbastecimento">Atualizar Abastecimento. \nNota: não afeta a data do abastecimento.</string>
+    <string name="btnAct2Back">Voltar</string>
+    <string name="btnAct2lbl">Detalhes</string>
+    <string name="btnActLbl">Calcular</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnLogin">Entrar</string>
+    <string name="btnSair">Sair</string>
+    <string name="cifra">R$:</string>
+    <string name="combustivel">COMBUSTÍVEL</string>
+    <string name="combustivelDP">Combustível:</string>
+    <string name="corBlue">COR AZUL.</string>
+    <string name="corBlueValue">AZUL:</string>
+    <string name="corGreen">COR VERDE.</string>
+    <string name="corGreenValue">VERDE:</string>
+    <string name="corRed">COR VERMEMLHA</string>
+    <string name="corRedValue">VERMELHO: </string>
+    <string name="data">Data:</string>
+    <string name="dialogBtnCanclear">Cancel</string>
+    <string name="dialogBtnOK">OK</string>
+    <string name="dialogMsgDeleteCar">Prosseguir com a deleção?\nTodos os registros de abastecimentos com este veículo \nserão deletados automaticamente. </string>
+    <string name="dialogMsgDeleteFeed">Tem certeza que deseja deletar o abastecimento?</string>
+    <string name="dialogMsgDeletePosto">Prosseguir com a deleção?\nTodos os registros de abastecimentos com este posto \nserão deletados automaticamente. </string>
+    <string name="dialogMsgUpgradeFeed">Tem certeza que deseja atualizar o abastecimento?\nNota: não afeta a data do abastecimento.</string>
+    <string name="dialogTitleDeleteCar">DELETAR VEÍCULO</string>
+    <string name="dialogTitleDeleteFeed">DELETAR ABASTECIMENTO</string>
+    <string name="dialogTitleDeletePosto">DELETAR POSTO</string>
+    <string name="dialogTitleUpgradeFeed">ATUALIZAR ABASTECIMENTO</string>
+    <string name="dieselResult">DIESEL</string>
+    <string name="errorField">Necessário digitar um valor.</string>
+    <string name="ethResult">ETANOL</string>
+    <string name="exceptionAbastecimentoSelecionado">Necessário selecionar um abastecimento.</string>
+    <string name="exceptionCampoKm">Precisa informar a kilometragem.</string>
+    <string name="exceptionCampoKm2">A kilometragem é inferior a última registrada.</string>
+    <string name="exceptionCamposAPreencher">Necessário informar o valor pago ou litros abastecidos.</string>
+    <string name="exceptionCombPreencher">O veículo selecionado é FLEX POWER, \n favor, informar o combustível utilizado.</string>
+    <string name="exceptionCombustivelVazio">É necessário escolher um tipo de combustível.</string>
+    <string name="exceptionNomePostoVazio">Nome ou companhia não informados.</string>
+    <string name="exceptionNomeUtilizadoCarro">Apelido ou placa já utilizados por outro veículo.</string>
+    <string name="exceptionNomeUtilizadoPosto">Nome ou companhia de posto já utilizados.</string>
+    <string name="exceptionNomeVazio">Apelido ou placa do veículo não informados.</string>
+    <string name="exceptionPostoCombustivelVazio">Necessário informar o valor de todos os combustíveis.</string>
+    <string name="exceptionPostoSelecionado">Necessário selecionar um posto.</string>
+    <string name="exceptionTipo">Precisa escolher um tipo de veículo.</string>
+    <string name="exceptionVeiculoSelecionado">Necessário selecionar um veículo.</string>
+    <string name="fieldEthanol"/>
+    <string name="fieldGas"/>
+    <string name="flexResult">FLEX POWER</string>
+    <string name="gasResult">GASOLINA</string>
+    <string name="hello_world">Olá mundo!</string>
+    <string name="helpMsgAbastecimento"> 
+	    Nesta tela é possível cadastrar, 
+	    alterar e excluir abastecimentos.\n\n
+	    
+	    Deve selecionar um veículo no dropdown. 
+	    Escolher um posto no dropdown logo abaixo. 
+	    Escolher entre Gasolina ou Etanol caso o
+	    veículo selecionado for FLEX POWER, para os
+	    demais veículos o combustível será 
+	    automaticamente selecionado. \n\n
+	    
+	    Na parte de Solicitação escolha entre 
+	    Valor Pago ou Litros Solicitado, digite 
+	    no campo pertinente a sua escolha que o 
+	    outro valor será automaticamente gerado.\n\n
+	    
+	    Por fim, informe a kilometragem atual de seu 
+	    veículo.
+	</string>
+    <string name="helpMsgCalculadora"> 
+	    A intenção desta funcionalidade é 
+	    ajudar a escolher uma opção de combustível mais 
+	    viável para quem irá utiliza veículo FLEX POWER. \n\n
+	    
+	    Digite o preço da Gasolina e do Etano e 
+	    pressione o botão CALCULAR para obter a melhor 
+	    opção de abastecimento dentre estes dois 
+	    combustíveis.	     
+	</string>
+    <string name="helpMsgConsultas"> 
+	    Nesta tela é possível consultar seus 
+	    registros de abastecimento utilizando filtros 
+	    específicos. \n\n
+	    
+	    Ao selecionar sua opção, entre: VEÍCULO, 
+	    POSTO e COMBUSTÍVEL, o dropdown abaixo 
+	    será populado com os registros de acordo 
+	    com a sua opção. Esolhendo um dos ítens no 
+	    dropdown, a lista de abastecimentos será 
+	    preenchida. 
+
+	</string>
+    <string name="helpMsgPosto"> 
+	    Nesta tela é possível cadastrar, 
+	    alterar e excluir Postos de Gasolina.\n\n
+	    
+	    Deve inserir um  nome, avaliar o atendimento 
+	    do estabelecimento através do nível de estrelas e  
+	    informar os preços da Gasolina, Etanol e Diesel.
+	</string>
+    <string name="helpMsgVeiculo"> 
+	    Nesta tela é possível cadastrar, 
+	    alterar e excluir veículos.\n\n
+	    
+	    Deve inserir um  nome, selecionar um tipo de veículo, 
+	    o combustível - para veículos FLEX, selecione Gasolina 
+	    e Etanol - por fim, escolha uma cor para o seu veículo
+	    ajustando as barras deslizantes, observando o efeito 
+	    no ícone à esquerda.
+	</string>
+    <string name="helpTituloAbastecimento">ABASTECIMENTO</string>
+    <string name="helpTituloCalculadora">CALCULADORA</string>
+    <string name="helpTituloConsultas">CONSULTAS</string>
+    <string name="helpTituloPosto">POSTO</string>
+    <string name="helpTituloVeiculo">VEÍCULO</string>
+    <string name="hintCarroNome">Apelido ou placa do Veículo.</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintKm">Kilometragem do veículo</string>
+    <string name="hintLitres">Litros abastecido.</string>
+    <string name="hintLogin">Login</string>
+    <string name="hintPostoDiesel">Preço do Diesel R$</string>
+    <string name="hintPostoEtanol">Preço do Etanol R$</string>
+    <string name="hintPostoGasolina">Preço da Gasolina R$</string>
+    <string name="hintPostoNome">Nome ou companhia do posto.</string>
+    <string name="hintSenha">Senha</string>
+    <string name="hintValorPago">Valor pago R$</string>
+    <string name="hitnValorPago"/>
+    <string name="id_lang">PORTUGUÊS</string>
+    <string name="imeCalcular">Calcular</string>
+    <string name="imeSalvar">Salvar</string>
+    <string name="kilometragemDP">Km:</string>
+    <string name="lblAbastecimentoTitulo">Abastecimento</string>
+    <string name="lblAct2Eth">Preço do Etanol R$:</string>
+    <string name="lblAct2EthPrice">\@null</string>
+    <string name="lblAct2Gas">Preço da Gasolina R$:</string>
+    <string name="lblAct2GasPrice">\@null</string>
+    <string name="lblAct2Result">\@null</string>
+    <string name="lblAct2ResultGas">O preço do Etanol está acima de 70% do preço da Gasolina.\n\nUSE GASOLINA</string>
+    <string name="lblAct2ResultValueEth">O preço do Etanol está abaixo de 70% do preço da Gasolina.\n\nUSE ETANOL.</string>
+    <string name="lblAct2Tilte">Informações:</string>
+    <string name="lblBestFuel">A melhor opção de combustível é:</string>
+    <string name="lblCarroCor">Ajuste\nde Cor</string>
+    <string name="lblCarrosLista">Minha lista de veículos</string>
+    <string name="lblCombustivelUsado">Combustível:</string>
+    <string name="lblDadosCarro">Informações do veículo:</string>
+    <string name="lblEthanol">Preço do Etanol R$:</string>
+    <string name="lblGas">Preço da Gasolina R$:</string>
+    <string name="lblListaAbastecimento">Lista de Abastecimentos</string>
+    <string name="lblPostoAtendimento">Avalie o serviço:</string>
+    <string name="lblPostoList">Lista de Postos</string>
+    <string name="lblPostoListPrecoDiesel">Preço do Diesel R$:</string>
+    <string name="lblPostoListPrecoEtanol">Preço do Etanol R$:</string>
+    <string name="lblPostoListPrecoGasolina">Preço da Gasolina R$:</string>
+    <string name="lblPostoListRating">Aval.:</string>
+    <string name="lblREsult">@null</string>
+    <string name="lblTelaPosto">Posto</string>
+    <string name="lblTipoSolicitacao">Solicitação</string>
+    <string name="litros">Litros:</string>
+    <string name="menuDeletarCarro">Deletar Veículo</string>
+    <string name="menuSalvarCarro">Salvar Veículo</string>
+    <string name="msgPrecisaLogar">É necessário efetuar Login.</string>
+    <string name="null_text">@null</string>
+    <string name="postoDP">Posto:</string>
+    <string name="title_activity_abastecimento">Abastecimento</string>
+    <string name="title_activity_calculadora">Calculadora</string>
+    <string name="title_activity_carro">Meus Veículos</string>
+    <string name="title_activity_details">Detalhes</string>
+    <string name="title_activity_estatisticas">Consultas</string>
+    <string name="title_activity_posto">Posto</string>
+    <string name="title_activity_usuario">Dados do Usuário.</string>
+    <string name="toastAtualizarCarro">Veículo atualizado com êxito.</string>
+    <string name="toastAtualizarPosto">Posto atualizado com êxito</string>
+    <string name="toastDeletarCarro">Veículo deletado com êxito.</string>
+    <string name="toastDeletarPosto">Posto removido com êxito</string>
+    <string name="toastSalvarCarro">Veículo salvo com êxito.</string>
+    <string name="toastSalvarPosto">Posto salvo com êxito.</string>
+    <string name="toastSelecionarCarro">É necessário selecionar um veículo.</string>
+    <string name="toastSelecionarPosto">É necessário selecionar um posto.</string>
+    <string name="topApp">Digite o custo de cada combustível.</string>
+    <string name="use">USE</string>
+    <string name="veiculo">VEÍCULO</string>
+    <string name="veiculoDP">Veículo:</string>
+    <string name="visualizarEstatisticas">Consultar Abastecimentos</string>
+</resources>

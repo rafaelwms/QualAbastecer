@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transparencia" >
+
+    <ImageView
+        android:id="@+id/imgCarroList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_carro" />
+
+    <TextView
+        android:id="@+id/txtNomeCarroList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgVeiculoComb"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:text="@string/null_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imgVeiculoComb"
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/imgCarroList"
+        android:layout_below="@+id/txtNomeCarroList"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imgCarroList"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_combustivel" />
+
+    <TextView
+        android:id="@+id/txtCarroComb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgVeiculoComb"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imgVeiculoComb"
+        android:singleLine="true"
+        android:text="@string/null_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
+<!-- From: file:/D:/GoogleDrive/AndroidStudio/QualAbastecer/app/src/main/res/layout/list_carros_model.xml -->

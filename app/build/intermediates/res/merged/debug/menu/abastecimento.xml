@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.edu.unibratec.qualabastecer.AbastecimentoActivity" >
+
+     <item
+        android:id="@+id/salvar_abastecimento"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        android:title="@string/menuSalvarCarro"
+        app:showAsAction="always"/>
+    
+   <item
+        android:id="@+id/deletar_abastecimento"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        android:title="@string/menuDeletarCarro"
+        app:showAsAction="always"/>
+   
+   <item
+        android:id="@+id/visualizar_estatisticas"
+        android:icon="@drawable/ic_drawer_abastecimento"
+        android:orderInCategory="100"  
+        app:showAsAction="always"
+        android:title="@string/visualizarEstatisticas"/>
+   
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_help"
+        android:orderInCategory="100"  
+        app:showAsAction="always"
+        android:title="@string/action_settings"/>	
+
+</menu>
+<!-- From: file:/D:/GoogleDrive/AndroidStudio/QualAbastecer/app/src/main/res/menu/abastecimento.xml -->

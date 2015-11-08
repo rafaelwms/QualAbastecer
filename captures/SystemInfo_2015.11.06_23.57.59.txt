@@ -1,0 +1,52 @@
+TASK br.com.rafaelwms.qualabastecer id=3051
+  ACTIVITY br.com.rafaelwms.qualabastecer/.MainActivity 1ebe524a pid=18697
+    Local FragmentActivity 36c99a6d State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mActivity=br.com.rafaelwms.qualabastecer.MainActivity@36c99a6d
+      mContainer=android.support.v4.app.FragmentActivity$2@f40e727
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.impl.PhoneWindow$DecorView{343a7dd4 V.E..... ... 0,0-1080,1920}
+        com.android.internal.widget.ActionBarOverlayLayout{35365b7d V.E..... ... 0,0-1080,1920 #102043b android:id/decor_content_parent}
+          android.widget.FrameLayout{37b33a72 V.E..... ... 0,219-1080,1920 #1020002 android:id/content}
+            android.support.v4.widget.DrawerLayout{394acec3 VFE..... F.. 0,0-1080,1701 #7f0c0065 app:id/drawer_layout}
+              android.widget.LinearLayout{1daba340 V.E..... ... 0,0-1080,1701 #7f0c0066 app:id/content_frame}
+                android.widget.TextView{31523279 V.ED.... ... 0,0-1080,73 #7f0c0067 app:id/txtSessao}
+                com.google.ads.AdView{df68bbe V.E..... ... 0,73-1080,223}
+                  android.gesture.GestureOverlayView{2381941f V.ED.... ... 60,0-1020,150}
+                    android.widget.FrameLayout{847b36c V.E..... ... 0,0-960,150}
+                      com.google.ads.util.IcsUtil$IcsAdWebView{10ba7d35 VFEDHVC. ... 0,0-960,150}
+              android.widget.ListView{3d8ba5ca IFED.VC. ... -720,0-0,1701 #7f0c0068 app:id/left_drawer}
+                android.widget.RelativeLayout{535533b V.E..... ... 0,0-720,111}
+                  android.widget.ImageView{11b29a58 V.ED.... ... 15,15-111,111 #7f0c0092 app:id/imageViewDrawer}
+                  android.widget.TextView{2c22b7b1 V.ED.... ... 141,38-720,111 #7f0c0093 app:id/textViewDrawer}
+                android.widget.RelativeLayout{22a65496 V.E..... ... 0,110-720,221}
+                  android.widget.ImageView{309be817 V.ED.... ... 15,15-111,111 #7f0c0092 app:id/imageViewDrawer}
+                  android.widget.TextView{be30404 V.ED.... ... 141,38-720,111 #7f0c0093 app:id/textViewDrawer}
+                android.widget.RelativeLayout{19fa1ded V.E..... ... 0,220-720,331}
+                  android.widget.ImageView{16eb2422 V.ED.... ... 15,15-111,111 #7f0c0092 app:id/imageViewDrawer}
+                  android.widget.TextView{3b6ceeb3 V.ED.... ... 141,38-720,111 #7f0c0093 app:id/textViewDrawer}
+                android.widget.RelativeLayout{f8e5c70 V.E..... ... 0,330-720,441}
+                  android.widget.ImageView{2e67abe9 V.ED.... ... 15,15-111,111 #7f0c0092 app:id/imageViewDrawer}
+                  android.widget.TextView{37bb606e V.ED.... ... 141,38-720,111 #7f0c0093 app:id/textViewDrawer}
+                android.widget.RelativeLayout{153dc30f V.E..... ... 0,440-720,551}
+                  android.widget.ImageView{954cf9c V.ED.... ... 15,15-111,111 #7f0c0092 app:id/imageViewDrawer}
+                  android.widget.TextView{3f061da5 V.ED.... ... 141,38-720,111 #7f0c0093 app:id/textViewDrawer}
+                android.widget.RelativeLayout{541157a V.E..... ... 0,550-720,661}
+                  android.widget.ImageView{279d812b V.ED.... ... 15,15-111,111 #7f0c0092 app:id/imageViewDrawer}
+                  android.widget.TextView{2dad4988 V.ED.... ... 141,38-720,111 #7f0c0093 app:id/textViewDrawer}
+          com.android.internal.widget.ActionBarContainer{265fef21 V.ED.... ... 0,75-1080,219 #102043c android:id/action_bar_container}
+            com.android.internal.widget.ActionBarView{263b0f46 V.E..... ... 0,0-1080,144 #102043d android:id/action_bar}
+              android.widget.LinearLayout{1bf10507 VFE...C. ... 0,0-561,144}
+                com.android.internal.widget.ActionBarView$HomeView{3f917634 V.E..... ... 0,0-145,144}
+                  android.widget.ImageView{32b5c5d V.ED.... ... 0,48-48,96 #102003b android:id/up}
+                  android.widget.ImageView{1c88d9d2 V.ED.... ... 37,24-133,120 #102002c android:id/home}
+                android.widget.LinearLayout{230eeaa3 V.E..... ... 145,35-561,108}
+                  android.widget.TextView{15e9c1a0 V.ED.... ... 0,0-392,73 #1020328 android:id/action_bar_title}
+                  android.widget.TextView{2f466159 G.ED.... ... 0,0-0,0 #1020329 android:id/action_bar_subtitle}
+              android.widget.ActionMenuView{3676c11e V.ED.... ... 912,0-1080,144}
+                com.android.internal.view.menu.ActionMenuItemView{1a9b8dff VFED..CL ... 0,0-168,144 #7f0c009d app:id/action_settings}
+            com.android.internal.widget.ActionBarContextView{bb957cc G.E..... ... 0,0-0,0 #102043e android:id/action_context_bar}
+          com.android.internal.widget.ActionBarContainer{2a72ba15 G.ED.... ... 0,0-0,0 #102043f android:id/split_action_bar}

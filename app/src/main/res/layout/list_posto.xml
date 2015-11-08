@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transparencia" >
+
+    <ImageView
+        android:id="@+id/imgPostoList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_posto" />
+
+    <TextView
+        android:id="@+id/txtPostoNomeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true" 
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imgPostoList"
+        android:text="@string/null_text"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txtPostoGasolina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtPostoNomeList"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imgPostoList"
+        android:singleLine="true"
+        android:text="@string/null_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtPostoRatingList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtPostoDiesel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imgPostoList"
+        android:layout_below="@+id/imgPostoList"
+        android:singleLine="true"
+        android:text="@string/null_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtPostoEtanol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPostoGasolina"
+        android:layout_below="@+id/txtPostoGasolina"
+        android:text="@string/null_text"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtPostoDiesel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPostoEtanol"
+        android:layout_below="@+id/txtPostoEtanol"
+        android:text="@string/null_text"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

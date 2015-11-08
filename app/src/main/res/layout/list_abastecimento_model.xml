@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transparencia" >
+
+    <ImageView
+        android:id="@+id/imgAbsComb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_fuel" />
+
+    <TextView
+        android:id="@+id/txtAbsData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true" 
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/imgAbsComb"
+        android:text="@string/null_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtAbsVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true" 
+        android:layout_alignLeft="@+id/txtAbsData"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/null_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtAbsPosto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true" 
+        android:layout_alignBottom="@+id/imgAbsComb"
+        android:layout_alignLeft="@+id/txtAbsData"
+        android:layout_alignParentRight="true"
+        android:text="@string/null_text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
